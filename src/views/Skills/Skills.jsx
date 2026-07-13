@@ -1,9 +1,3 @@
-function getStrokeDashoffset(percentage) {
-  const r = 40;
-  const circumference = 2 * Math.PI * r;
-  return circumference - (circumference * percentage) / 100;
-}
-
 function Skills({ t }) {
   return (
     <section id="skills" className="py-xxl px-gutter max-w-container-max mx-auto space-y-xxl">
@@ -91,18 +85,8 @@ function Skills({ t }) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-lg">
           {/* Spanish */}
           <div className="glass-card p-lg rounded-xl flex items-center gap-xl">
-            <div className="relative w-24 h-24 flex-shrink-0">
-              <svg className="w-full h-full" viewBox="0 0 100 100">
-                <circle className="text-surface-container-high stroke-current" cx="50" cy="50" fill="transparent" r="40" strokeWidth="8"></circle>
-                <circle
-                  className="progress-ring__circle text-primary stroke-current"
-                  cx="50" cy="50" fill="transparent" r="40" strokeWidth="8"
-                  strokeDasharray="251.2"
-                  strokeDashoffset={getStrokeDashoffset(100)}
-                  strokeLinecap="round"
-                ></circle>
-              </svg>
-              <div className="absolute inset-0 flex items-center justify-center font-label-md text-label-md font-bold">100%</div>
+            <div className="relative w-24 h-24 flex-shrink-0 rounded-full overflow-hidden ring-4 ring-surface-container-high">
+              <img src="/flags/mx.svg" alt="Bandera de México" className="w-full h-full object-cover" />
             </div>
             <div className="space-y-sm">
               <h4 className="font-headline-md text-headline-md font-bold">Español</h4>
@@ -112,19 +96,9 @@ function Skills({ t }) {
           </div>
 
           {/* English */}
-          <div className="glass-card p-lg rounded-xl flex items-center gap-xl feature-card-border">
-            <div className="relative w-24 h-24 flex-shrink-0">
-              <svg className="w-full h-full" viewBox="0 0 100 100">
-                <circle className="text-surface-container-high stroke-current" cx="50" cy="50" fill="transparent" r="40" strokeWidth="8"></circle>
-                <circle
-                  className="progress-ring__circle text-secondary stroke-current"
-                  cx="50" cy="50" fill="transparent" r="40" strokeWidth="8"
-                  strokeDasharray="251.2"
-                  strokeDashoffset={getStrokeDashoffset(90)}
-                  strokeLinecap="round"
-                ></circle>
-              </svg>
-              <div className="absolute inset-0 flex items-center justify-center font-label-md text-label-md font-bold">90%</div>
+          <div className="glass-card p-lg rounded-xl flex items-center gap-xl">
+            <div className="relative w-24 h-24 flex-shrink-0 rounded-full overflow-hidden ring-4 ring-surface-container-high">
+              <img src="/flags/us.svg" alt="Bandera de Estados Unidos" className="w-full h-full object-cover" />
             </div>
             <div className="space-y-sm">
               <h4 className="font-headline-md text-headline-md font-bold">Inglés C1</h4>
@@ -135,18 +109,8 @@ function Skills({ t }) {
 
           {/* Portuguese */}
           <div className="glass-card p-lg rounded-xl flex items-center gap-xl">
-            <div className="relative w-24 h-24 flex-shrink-0">
-              <svg className="w-full h-full" viewBox="0 0 100 100">
-                <circle className="text-surface-container-high stroke-current" cx="50" cy="50" fill="transparent" r="40" strokeWidth="8"></circle>
-                <circle
-                  className="progress-ring__circle text-primary stroke-current"
-                  cx="50" cy="50" fill="transparent" r="40" strokeWidth="8"
-                  strokeDasharray="251.2"
-                  strokeDashoffset={getStrokeDashoffset(85)}
-                  strokeLinecap="round"
-                ></circle>
-              </svg>
-              <div className="absolute inset-0 flex items-center justify-center font-label-md text-label-md font-bold">85%</div>
+            <div className="relative w-24 h-24 flex-shrink-0 rounded-full overflow-hidden ring-4 ring-surface-container-high">
+              <img src="/flags/br.svg" alt="Bandera de Brasil" className="w-full h-full object-cover" />
             </div>
             <div className="space-y-sm">
               <h4 className="font-headline-md text-headline-md font-bold">Portugués C1</h4>
@@ -157,18 +121,8 @@ function Skills({ t }) {
 
           {/* French */}
           <div className="glass-card p-lg rounded-xl flex items-center gap-xl">
-            <div className="relative w-24 h-24 flex-shrink-0">
-              <svg className="w-full h-full" viewBox="0 0 100 100">
-                <circle className="text-surface-container-high stroke-current" cx="50" cy="50" fill="transparent" r="40" strokeWidth="8"></circle>
-                <circle
-                  className="progress-ring__circle text-on-surface-variant stroke-current"
-                  cx="50" cy="50" fill="transparent" r="40" strokeWidth="8"
-                  strokeDasharray="251.2"
-                  strokeDashoffset={getStrokeDashoffset(60)}
-                  strokeLinecap="round"
-                ></circle>
-              </svg>
-              <div className="absolute inset-0 flex items-center justify-center font-label-md text-label-md font-bold">60%</div>
+            <div className="relative w-24 h-24 flex-shrink-0 rounded-full overflow-hidden ring-4 ring-surface-container-high">
+              <img src="/flags/fr.svg" alt="Bandera de Francia" className="w-full h-full object-cover" />
             </div>
             <div className="space-y-sm">
               <h4 className="font-headline-md text-headline-md font-bold">Francés B1</h4>

@@ -51,7 +51,7 @@ function Hero({ t, scrollToSection }) {
         <div className="feature-card-border overflow-hidden rounded-3xl shadow-2xl">
           <img
             className="w-full h-auto aspect-video object-cover transition-transform duration-700 group-hover:scale-105"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_z8Apwhao6z7p52DFXfipomviBxrj0EoYFbQITab_7rhSP959ivh0muXxv8suJbCOIXpQhHXS0w6wYyHPbOz2VX8MMzlVaCmi8d-nch5cn21igTPaW9eZIbAmWenOZiClyEcKDgVzQZgaouxkl8sRTTOFMvkx8gkOLX2hvjbO-DIw4w2c1zC6e9ZSh3k_SfMzqA20QgvdyLNDzJ2rN2zUkKdOppv9XeQ-eGQY-PmZNZeu2GsYxQwJ"
+            src="./Foto.JPG"
             alt="Workspace"
           />
         </div>

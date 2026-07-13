@@ -24,7 +24,7 @@ function Footer({ t, scrollToSection }) {
           </a>
         </div>
         <div className="font-label-sm text-label-sm text-on-surface-variant">
-          © 2024 Andrés Esquivel Breceda
+          © 2026 Andrés Esquivel Breceda
         </div>
       </div>
     </footer>

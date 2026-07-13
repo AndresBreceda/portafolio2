@@ -9,6 +9,7 @@ function Navbar({ t, theme, setTheme, lang, setLang, menuOpen, setMenuOpen, acti
           onClick={() => scrollToSection('home')}
           className="font-headline-md text-headline-md font-bold tracking-tight text-on-surface cursor-pointer hover:text-primary transition-colors"
         >
+          <img src="/logo_sin_fondo.svg" alt="Logo" className="h-8 w-auto inline-block mr-2" />
           {t.nav.name}
         </div>
 

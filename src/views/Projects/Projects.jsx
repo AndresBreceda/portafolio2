@@ -27,9 +27,9 @@ function Projects({ t }) {
           </div>
           <div className="p-lg flex flex-col flex-grow space-y-md">
             <div className="flex flex-wrap gap-xs">
-              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">Rust</span>
-              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">WebAssembly</span>
-              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">NLP</span>
+              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">React</span>
+              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">C#</span>
+              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">Mongo DB</span>
             </div>
             <h3 className="font-headline-md text-headline-md text-on-surface font-bold">
               {t.projects.project1.title}
@@ -38,14 +38,11 @@ function Projects({ t }) {
               {t.projects.project1.desc}
             </p>
             <div className="flex flex-wrap items-center gap-md pt-md border-t border-outline-variant/20">
-              <button className="star-gradient text-white px-lg py-sm rounded-xl font-label-md text-label-md hover:brightness-110 active:scale-95 transition-all flex items-center gap-xs cursor-pointer font-bold">
-                <span className="material-symbols-outlined text-[18px]">rocket_launch</span>
-                {t.projects.demo}
-              </button>
-              <button className="border border-outline-variant text-on-surface hover:bg-surface-container-highest/50 px-lg py-sm rounded-xl font-label-md text-label-md active:scale-95 transition-all flex items-center gap-xs cursor-pointer font-bold">
+
+              <a href="https://github.com/AndresBreceda/Sistema-de-paqueteria" className="border border-outline-variant text-on-surface hover:bg-surface-container-highest/50 px-lg py-sm rounded-xl font-label-md text-label-md active:scale-95 transition-all flex items-center gap-xs cursor-pointer font-bold">
                 <span className="material-symbols-outlined text-[18px]">code</span>
                 {t.projects.github}
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -61,9 +58,9 @@ function Projects({ t }) {
           </div>
           <div className="p-lg flex flex-col flex-grow space-y-md">
             <div className="flex flex-wrap gap-xs">
-              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">Python</span>
-              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">TensorFlow</span>
-              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold font-semibold">D3.js</span>
+              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">API Rest</span>
+              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">Tailwind CSS</span>
+              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold font-semibold">JavaScript</span>
             </div>
             <h3 className="font-headline-md text-headline-md text-on-surface font-bold">
               {t.projects.project2.title}
@@ -72,12 +69,8 @@ function Projects({ t }) {
               {t.projects.project2.desc}
             </p>
             <div className="flex flex-wrap items-center gap-md pt-md border-t border-outline-variant/20">
-              <button className="star-gradient text-white px-lg py-sm rounded-xl font-label-md text-label-md hover:brightness-110 active:scale-95 transition-all flex items-center gap-xs cursor-pointer font-bold">
-                <span className="material-symbols-outlined text-[18px]">visibility</span>
-                {t.projects.demo}
-              </button>
               <button className="border border-outline-variant text-on-surface hover:bg-surface-container-highest/50 px-lg py-sm rounded-xl font-label-md text-label-md active:scale-95 transition-all flex items-center gap-xs cursor-pointer font-bold">
-                <span className="material-symbols-outlined text-[18px]">terminal</span>
+                <span className="material-symbols-outlined text-[18px]">code</span>
                 {t.projects.github}
               </button>
             </div>
@@ -87,17 +80,17 @@ function Projects({ t }) {
         {/* Project 3: CloudNexus API */}
         <div className="glass-card rounded-2xl overflow-hidden flex flex-col group hover:border-primary/40 transition-all duration-500 shadow-xl">
           <div className="aspect-video relative overflow-hidden">
-            <div
+            <img
               className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-              style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAnoOZxKxZPpI0YoZQOrztSKGtVuvPmPLeLZIqcJpkwEK7TDTCZ-Irr44C5knYGsLd-NDb88qSwZ0T4OAlV_F8RkT95nrCyYoA4ORkBQ4MJUQEis7u69mk34VCaH3eKyTdrh1AQq8H-k2xnUn2CYqhBhVLJThxzJfDG5VNL89S9N_-pWmHiYCTgzzP4KaCUc0125TWpg3hF7e4BDtPDTLtSg6PQaqtpcbhqSdkoe2dYzvxjC1BljOez')" }}
-            ></div>
+              src="./Servidor.jpg"
+            ></img>
             <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0F]/80 to-transparent opacity-60"></div>
           </div>
           <div className="p-lg flex flex-col flex-grow space-y-md">
             <div className="flex flex-wrap gap-xs">
-              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">Go</span>
-              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">gRPC</span>
-              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">Kubernetes</span>
+              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">DCHP</span>
+              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">VLAN</span>
+              <span className="bg-primary/10 border border-primary/20 text-primary font-label-sm text-label-sm px-sm py-0.5 rounded-full font-semibold">TCP/IP</span>
             </div>
             <h3 className="font-headline-md text-headline-md text-on-surface font-bold">
               {t.projects.project3.title}

@@ -112,10 +112,14 @@ function App() {
 
       <main className="pt-20">
         <Hero t={t} scrollToSection={scrollToSection} />
-        <Specialties t={t} />
-        <Skills t={t} />
-        <Projects t={t} />
         <Experience t={t} />
+        <Projects t={t} /> 
+        
+        <Skills t={t} />       
+        <Specialties t={t} />
+
+
+        
         <CTA t={t} scrollToSection={scrollToSection} />
       </main>
 
