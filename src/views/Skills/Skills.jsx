@@ -138,7 +138,7 @@ function Skills({ t }) {
         <div className="absolute inset-0 bg-gradient-to-tr from-primary-container/10 via-secondary-container/10 to-transparent"></div>
         <div className="absolute inset-0 flex items-center justify-center p-xl">
           <div className="text-center space-y-sm">
-            <span className="material-symbols-outlined text-6xl text-primary animate-pulse">language_french</span>
+            <img src="/logo_sin_fondo.svg" alt="Logo" className="h-20 w-auto mx-auto animate-pulse" />
             <h4 className="font-headline-lg text-2xl md:text-headline-lg text-on-surface font-bold">
               {t.skills.visualTitle}
             </h4>

@@ -62,8 +62,8 @@ export const translations = {
         desc: "En este proyecto creé una red física. Utilicé un switch para crear VLANs, establecer reglas de tráfico (como IPs estáticas) y conectar diferentes equipos por medio de cables Ethernet, para disponibilizar el acceso a un servidor de Kiwix.."
       },
       project4: {
-        title: "Synthetix AI Helper",
-        desc: "Asistente inteligente integrado para optimización de flujos de trabajo de traducción técnica, reduciendo los tiempos de revisión en un 40%.",
+        title: "Naorobi: Renta de carros",
+        desc: "Con esta web App, integre un backend y una base de datos, que por medio de tokkens y roles, permitita administrar una pagina de rentas autos, si como rentar autos para un usuario normal, Hecho con Node.js, React y MongoDb",
       },
     },
     experience: {
@@ -158,16 +158,16 @@ export const translations = {
         desc: "This project, built with React, C#, and MongoDB, follows a REST API design to communicate the system, generating package tickets and tracking their delivery.",
       },
       project2: {
-        title: "LinguaMetrics",
-        desc: "Predictive analytics platform for second language acquisition. Uses machine learning models to plot custom learning curves.",
+        title: "PrimeraPlus - Content Tablet",
+        desc: "I replicated the in-bus content tablet used by Primera Plus buses. Using APIs, I built a platform that lets users browse a catalog of music, movies, and games.",
       },
       project3: {
-        title: "CloudNexus API",
-        desc: "Microservices infrastructure designed for high availability. High-performance gRPC gateway optimized for massive throughput.",
+        title: "Home Lab",
+        desc: "In this project I built a physical network. I used a switch to create VLANs, set traffic rules (such as static IPs), and connect different devices via Ethernet cables to expose access to a Kiwix server.",
       },
       project4: {
-        title: "Synthetix AI Helper",
-        desc: "Integrated smart assistant for technical translation workflow optimization, reducing review times by 40%.",
+        title: "Naorobi: Car Rental",
+        desc: "With this web app, I integrated a backend and a database that, through tokens and roles, manages a car rental site, allowing regular users to rent cars. Built with Node.js, React, and MongoDB.",
       },
     },
     experience: {
