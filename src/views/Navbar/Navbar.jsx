@@ -26,14 +26,14 @@ function Navbar({ t, theme, setTheme, lang, setLang, menuOpen, setMenuOpen, acti
             {t.nav.home}
           </button>
           <button
-            onClick={() => scrollToSection('skills')}
+            onClick={() => scrollToSection('experience')}
             className={`font-label-md text-label-md transition-colors pb-1 cursor-pointer ${
-              activeSection === 'skills'
+              activeSection === 'experience'
                 ? 'text-primary font-bold border-b-2 border-primary'
                 : 'text-on-surface-variant hover:text-primary'
             }`}
           >
-            {t.nav.skills}
+            {t.nav.experience}
           </button>
           <button
             onClick={() => scrollToSection('projects')}
@@ -46,14 +46,14 @@ function Navbar({ t, theme, setTheme, lang, setLang, menuOpen, setMenuOpen, acti
             {t.nav.projects}
           </button>
           <button
-            onClick={() => scrollToSection('experience')}
+            onClick={() => scrollToSection('skills')}
             className={`font-label-md text-label-md transition-colors pb-1 cursor-pointer ${
-              activeSection === 'experience'
+              activeSection === 'skills'
                 ? 'text-primary font-bold border-b-2 border-primary'
                 : 'text-on-surface-variant hover:text-primary'
             }`}
           >
-            {t.nav.experience}
+            {t.nav.skills}
           </button>
 
           {/* Theme Toggle */}

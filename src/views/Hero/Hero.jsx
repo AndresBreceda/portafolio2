@@ -1,3 +1,5 @@
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 function Hero({ t, scrollToSection }) {
   return (
     <section id="home" className="relative pt-xxl pb-xxl px-gutter max-w-container-max mx-auto flex flex-col md:flex-row items-center gap-xxl min-h-[calc(100vh-80px)]">
@@ -13,7 +15,7 @@ function Hero({ t, scrollToSection }) {
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-md">
+        <div className="flex flex-wrap items-center gap-md">
           <button
             onClick={() => scrollToSection('projects')}
             className="star-gradient text-white dark:text-on-primary-fixed px-xl py-md rounded-xl font-label-md text-label-md font-bold active:scale-95 transition-all shadow-lg hover:shadow-primary/20 cursor-pointer"
@@ -25,6 +27,14 @@ function Hero({ t, scrollToSection }) {
             className="bg-transparent border border-outline-variant/40 hover:border-primary/60 text-on-surface px-xl py-md rounded-xl font-label-md text-label-md font-bold active:scale-95 transition-all cursor-pointer"
           >
             {t.hero.contact}
+          </a>
+          <a
+            href="https://www.linkedin.com/in/andres-esquivel-breceda/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-on-surface hover:text-primary active:scale-95 transition-all cursor-pointer"
+          >
+            <LinkedInIcon className="w-9 h-9" />
           </a>
         </div>
 

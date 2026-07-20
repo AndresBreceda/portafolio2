@@ -44,8 +44,8 @@ function Specialties({ t }) {
 
         {/* UI/UX Design Card */}
         <div className="feature-card-border p-xl rounded-3xl group hover:-translate-y-2 transition-all duration-300">
-          <div className="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center mb-lg shadow-lg shadow-tertiary/10">
-            <span className="material-symbols-outlined text-tertiary">draw</span>
+          <div className="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center mb-lg shadow-lg shadow-tertiary/20">
+            <span className="material-symbols-outlined text-white">draw</span>
           </div>
           <h3 className="font-headline-md text-headline-md mb-md font-bold">{t.specialties.uiuxTitle}</h3>
           <p className="font-body-md text-body-md text-on-surface-variant mb-xl leading-relaxed">

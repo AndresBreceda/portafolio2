@@ -16,7 +16,7 @@ function Footer({ t, scrollToSection }) {
           <a className="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="https://github.com/AndresBreceda" target="_blank" rel="noopener noreferrer">
             <GitHubIcon />
           </a>
-          <a className="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="https://www.linkedin.com/in/andres-esquivel-breceda/"  rel="noopener noreferrer">
+          <a className="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="https://www.linkedin.com/in/andres-esquivel-breceda/" target='_blank' rel="noopener noreferrer">
             <LinkedInIcon />
           </a>
           <a href="mailto:a.e.breceda@gmail.com" className="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors cursor-pointer">

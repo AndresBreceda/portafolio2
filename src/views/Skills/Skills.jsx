@@ -18,58 +18,112 @@ function Skills({ t }) {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-lg">
-          {/* C# */}
-          <div className="glass-card p-xl rounded-xl flex flex-col items-center justify-center text-center gap-md feature-card-border">
-            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center">
-              <span className="material-symbols-outlined text-primary text-4xl" style={{ fontVariationSettings: "'FILL' 1" }}>code</span>
+          {/* Docker */}
+          <div className="glass-card p-xl rounded-xl flex flex-col items-center justify-center text-center gap-md">
+            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center overflow-hidden p-3">
+              <img src="/js.svg" alt="Javascript" className="w-full h-full object-contain" />
             </div>
             <div>
-              <h4 className="font-headline-md text-headline-md font-bold">C#</h4>
-              <span className="bg-primary/10 border border-primary/20 text-primary px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">Backend</span>
+              <h4 className="font-headline-md text-headline-md font-bold mb-2">Javascript</h4>
+              <span className="bg-secondary/10 border border-secondary/20 text-secondary px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">FullStack</span>
             </div>
           </div>
 
           {/* JS */}
           <div className="glass-card p-xl rounded-xl flex flex-col items-center justify-center text-center gap-md">
-            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center">
-              <span className="material-symbols-outlined text-secondary text-4xl" style={{ fontVariationSettings: "'FILL' 1" }}>javascript</span>
+            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center overflow-hidden p-3">
+              <img src="/html.svg" alt="HTML" className="w-full h-full object-contain" />
             </div>
             <div>
-              <h4 className="font-headline-md text-headline-md font-bold">JavaScript</h4>
-              <span className="bg-secondary/10 border border-secondary/20 text-secondary px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">Fullstack</span>
+              <h4 className="font-headline-md text-headline-md font-bold mb-2">HTML</h4>
+              <span className="bg-primary/10 border border-primary/20 text-primary px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">Frontend</span>
             </div>
           </div>
 
           {/* React */}
           <div className="glass-card p-xl rounded-xl flex flex-col items-center justify-center text-center gap-md">
-            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center">
-              <span className="material-symbols-outlined text-primary text-4xl" style={{ fontVariationSettings: "'FILL' 1" }}>widgets</span>
+            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center overflow-hidden p-3">
+              <img src="/react.svg" alt="React" className="w-full h-full object-contain" />
             </div>
             <div>
-              <h4 className="font-headline-md text-headline-md font-bold">React</h4>
+              <h4 className="font-headline-md text-headline-md font-bold mb-2">React</h4>
               <span className="bg-primary/10 border border-primary/20 text-primary px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">Frontend</span>
             </div>
           </div>
 
           {/* Python */}
           <div className="glass-card p-xl rounded-xl flex flex-col items-center justify-center text-center gap-md">
-            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center">
-              <span className="material-symbols-outlined text-secondary text-4xl" style={{ fontVariationSettings: "'FILL' 1" }}>analytics</span>
+            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center overflow-hidden p-3">
+              <img src="/python.svg" alt="Python" className="w-full h-full object-contain" />
             </div>
             <div>
-              <h4 className="font-headline-md text-headline-md font-bold">Python</h4>
-              <span className="bg-secondary/10 border border-secondary/20 text-secondary px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold font-semibold">Data/AI</span>
+              <h4 className="font-headline-md text-headline-md font-bold mb-2">Python</h4>
+              <span className="bg-yellow-500/10 border border-yellow-500/20 text-yellow-500 px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">Data/AI</span>
             </div>
           </div>
 
           {/* PostgreSQL */}
           <div className="glass-card p-xl rounded-xl flex flex-col items-center justify-center text-center gap-md">
-            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center">
-              <span className="material-symbols-outlined text-primary text-4xl" style={{ fontVariationSettings: "'FILL' 1" }}>database</span>
+            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center overflow-hidden p-3">
+              <img src="/csharp.svg" alt="C#" className="w-full h-full object-contain" />
             </div>
             <div>
-              <h4 className="font-headline-md text-headline-md font-bold">PostgreSQL</h4>
-              <span className="bg-primary/10 border border-primary/20 text-primary px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">SQL DB</span>
+              <h4 className="font-headline-md text-headline-md font-bold mb-2">C#</h4>
+              <span className="bg-red-500/10 border border-red-500/20 text-red-500 px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">Backend</span>
+            </div>
+          </div>
+
+          <div className="glass-card p-xl rounded-xl flex flex-col items-center justify-center text-center gap-md">
+            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center overflow-hidden p-3">
+              <img src="/mongo.svg" alt="MongoDB" className="w-full h-full object-contain" />
+            </div>
+            <div>
+              <h4 className="font-headline-md text-headline-md font-bold mb-2">Mongo DB</h4>
+              <span className="bg-orange-500/10 border border-orange-500/20 text-orange-500 px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">NoSql DB</span>
+            </div>
+          </div>
+
+          {/* JS */}
+          <div className="glass-card p-xl rounded-xl flex flex-col items-center justify-center text-center gap-md">
+            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center overflow-hidden p-3">
+              <img src="/Postgrest.svg" alt="PostgreSQL" className="w-full h-full object-contain" />
+            </div>
+            <div>
+              <h4 className="font-headline-md text-headline-md font-bold mb-2">PostgreSQL</h4>
+              <span className="bg-orange-500/10 border border-orange-500/20 text-orange-500 px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">SQL DB</span>
+            </div>
+          </div>
+
+          {/* React */}
+          <div className="glass-card p-xl rounded-xl flex flex-col items-center justify-center text-center gap-md">
+            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center overflow-hidden p-3">
+              <img src="/docker.svg" alt="Docker" className="w-full h-full object-contain" />
+            </div>
+            <div>
+              <h4 className="font-headline-md text-headline-md font-bold mb-2">Docker</h4>
+              <span className="bg-pink-500/10 border border-pink-500/20 text-pink-500 px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">DevOps</span>
+            </div>
+          </div>
+
+          {/* Python */}
+          <div className="glass-card p-xl rounded-xl flex flex-col items-center justify-center text-center gap-md">
+            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center overflow-hidden p-3">
+              <img src="/linux.svg" alt="Linux" className="w-full h-full object-contain" />
+            </div>
+            <div>
+              <h4 className="font-headline-md text-headline-md font-bold mb-2">Linux</h4>
+              <span className="bg-green-500/10 border border-green-500/20 text-green-500 px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">Sys Admin</span>
+            </div>
+          </div>
+
+          {/* PostgreSQL */}
+          <div className="glass-card p-xl rounded-xl flex flex-col items-center justify-center text-center gap-md">
+            <div className="w-16 h-16 bg-surface-container-high rounded-full flex items-center justify-center overflow-hidden p-3">
+              <img src="/github.svg" alt="GitHub" className="w-full h-full object-contain" />
+            </div>
+            <div>
+              <h4 className="font-headline-md text-headline-md font-bold mb-2">GitHub</h4>
+              <span className="bg-gray-500/10 border border-gray-500/20 text-gray-500 px-sm py-xs rounded-full font-label-sm text-label-sm font-semibold">Version Control</span>
             </div>
           </div>
         </div>
