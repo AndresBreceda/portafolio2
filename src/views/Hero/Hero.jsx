@@ -34,7 +34,7 @@ function Hero({ t, scrollToSection }) {
             rel="noopener noreferrer"
             className="text-on-surface hover:text-primary active:scale-95 transition-all cursor-pointer"
           >
-            <LinkedInIcon className="w-9 h-9" />
+            <LinkedInIcon className="w-12 h-12" />
           </a>
         </div>
 

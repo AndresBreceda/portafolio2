@@ -12,12 +12,12 @@ function CTA({ t, scrollToSection }) {
               {t.cta.subtitle}
             </p>
           </div>
-          <button
-            onClick={() => scrollToSection('experience')}
+          <a
+            href="mailto:a.e.breceda@gmail.com"
             className="star-gradient text-white px-xl py-md rounded-xl font-label-md text-label-md font-bold whitespace-nowrap active:scale-95 transition-all shadow-xl hover:shadow-primary/30 cursor-pointer"
           >
             {t.cta.button}
-          </button>
+          </a>
         </div>
       </div>
     </section>

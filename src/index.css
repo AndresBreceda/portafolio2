@@ -16,8 +16,8 @@
   --surface-container-high: #e2e7ff;
   --surface-container-highest: #dae2fd;
   --surface-container-lowest: #ffffff;
-  --outline-variant: #c1c7d3;
-  --outline: #717783;
+  --outline-variant: #8f97a8;
+  --outline: #6b7280;
   --primary-container: #60a5fa;
   --secondary-container: #9c48ea;
   --tertiary-container: #9ea3a7;
@@ -26,7 +26,7 @@
   --star-gradient-2: #8127cf;
   --glow-opacity: 0.08;
   --card-bg: #ffffff;
-  --card-border: #eaedff;
+  --card-border: #b8bec9;
   --card-shadow: 0 4px 20px -2px rgba(0, 96, 172, 0.05);
 }
 
